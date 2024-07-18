@@ -14,7 +14,7 @@ spec:
       spec:
        containers:
         - name: devops
-          image: vinodvarghese/vinod:latest
+          image: vinodvarghese/eksimage:latest
           imagePullPolicy: Always
           ports:
           - containerPort: 80
