@@ -1,5 +1,5 @@
 # Use the official CentOS Apache HTTP Server image
-FROM centos/httpd
+FROM amazon linux
 
 # Download and unzip the web content
 COPY photogenic.zip /var/www/html
